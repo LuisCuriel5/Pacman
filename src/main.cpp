@@ -6,6 +6,6 @@ int main()
     TazoDorado coqueto; 
     coqueto.flotar();
 
-    cout << "El coqueto esta flotando?" << endl ;
+    cout << "El coqueto esta flotandoo?" << endl ;
     coqueto.flotandoo(); 
 }
