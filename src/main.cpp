@@ -1,7 +1,11 @@
-#include<iostream>
-#include<TazoDorado.hpp>
-using namespace std;
-int main(){
-    
-    cout<<"imprimir desde c++"<<endl;
+#include <iostream>
+#include <TazoDorado.hpp>
+using namespace std; 
+int main()
+{
+    TazoDorado coqueto; 
+    coqueto.flotar();
+
+    cout << "El coqueto esta flotando?" << endl ;
+    coqueto.flotandoo(); 
 }
