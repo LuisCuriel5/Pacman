@@ -3,9 +3,9 @@
 using namespace std; 
 int main()
 {
-    TazoDorado coqueto; 
-    coqueto.flotar();
+    TazoDorado coqueto; //instancia
+    coqueto.Flotar();
 
-    cout << "El coqueto esta flotando?" << endl ;
-    coqueto.flotandoo(); 
+    cout<<"El coqueto esta flotando?"<<endl;
+    coqueto.Flotando();
 }

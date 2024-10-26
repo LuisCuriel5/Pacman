@@ -6,12 +6,18 @@ public:
     TazoDorado() {
         this -> flotando = false; 
     }
+    void Inicializar() {
+        this -> flotando = false; 
+    }
+
+
+
     ~TazoDorado() {}
-    void flotar(){
+    void Flotar(){
         this -> flotando = true; 
     }
-    bool flotandoo()
+    bool Flotando()
     {
-        return this->flotando;
+        return this-> flotando;
     }
 };
