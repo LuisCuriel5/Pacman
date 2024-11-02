@@ -15,17 +15,17 @@ int main(int argc, char const *argv[])
     int y=frame * frame;
     
     while (true)
-    {
+{
         auto can = Canvas(50,50);
-        can.DrawPointCircle(10,10,10);
+        //Animacion de un DAB
+        can.DrawPointCircle(10,10,10); //cabeza
         can.DrawBlock(2,10,10); //ojo izquiero
         can.DrawBlock(8,8,10); //ojo derecho
         can.DrawBlockLine(12,20,12,40); //torso
         can.DrawBlockLine(12,30,30 + frame,15 + frame); //brazo derecho
         can.DrawBlockLine(12,30,-30 - frame,15 - frame); //hombro izquierdo
         can.DrawBlockLine(0,27,27 + frame,5 + frame); //brazo izquierdo
-
-
+        //No supe como pararlo :(
 
 
 
